@@ -1,0 +1,24 @@
+﻿<UserControl x:Class="WpfContactsApp.Controls.ContactControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:WpfContactsApp.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="90" d:DesignWidth="300">
+    <Grid Background="#9AE5E5E5">
+        <StackPanel Margin="5">
+            <TextBlock x:Name="nameTextBlock" 
+                       Text="Name Lastname" 
+                       FontSize="16"
+                       FontWeight="Bold"/>
+            <TextBlock x:Name="emailTextBlock"                        Text="email@email.com" 
+                       FontSize="12"     
+                       Foreground="DodgerBlue"/>
+            <TextBlock x:Name="phoneTextBlock" 
+                       Text="1213123 123123" 
+                       FontSize="12"
+                       FontStyle="Italic"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
